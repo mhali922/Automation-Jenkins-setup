@@ -1,0 +1,6 @@
+   yum install docker
+   systemctl start docker
+   systemctl status docker
+   docker pull prom/prometheus
+   docker images
+   docker run -p 9090:9090 prom/prometheus
